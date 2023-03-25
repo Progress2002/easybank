@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: hsl(220, 16%, 96%);
+  background-color: hsl(0, 0%, 98%);
   overflow-x: hidden;
 }
 
