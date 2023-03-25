@@ -29,7 +29,7 @@ export const aboutData = [
 
 export const articleData = [
   {
-    id: "1",
+    id: "5",
     alt: "image-currency",
     imgUrl: "/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
     author: "By Claire Robinson",
@@ -37,7 +37,7 @@ export const articleData = [
     summary: "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single..."
   },
   {
-    id: "2",
+    id: "6",
     alt: "image-restaurant",
     imgUrl: "/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
     author: "By Wilson Hutton",
@@ -45,7 +45,7 @@ export const articleData = [
     summary: "Our simple budgeting features allows you to separate out your spending and set realistic limits each month. That means you... "
   },
   {
-    id: "3",
+    id: "7",
     alt: "image-plane",
     imgUrl: "/static/media/image-plane.03db115dff75876c3f3d.jpg",
     author: "By Wilson Hutton",
@@ -53,7 +53,7 @@ export const articleData = [
     summary: "We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you..."
   },
   {
-    id: "4",
+    id: "8",
     alt: "image-confetti",
     imgUrl: "/static/media/image-confetti.67921b1124297023a080.jpg",
     author: "By Claire Robinson",
