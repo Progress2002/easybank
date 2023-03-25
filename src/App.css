@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: hsl(220, 16%, 96%);
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.intro-img {
+  background: url('./images/bg-intro-mobile.svg');
+  background-size: cover;
+  background-position: top right;
+  min-height: 25rem;
+}
+
+@media (min-width: 768px) {
+
+  .intro-section {
+    align-items: center;
+    height: 75vh;
+
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .intro-img {
+    background: url('./images/bg-intro-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .intro-img {
+    width: 60%;
+    height: 58rem;
+    overflow-y: hidden;
   }
+
+  .intro-img img {
+    height: 48rem;
+
+  }
+
+  .intro-body {
+    width: 30%;
+  } 
 }
+
+/* - Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+- Weights: 300, 400, 700 */
