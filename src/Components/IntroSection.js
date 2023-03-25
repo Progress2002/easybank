@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import InviteBtn from "./InviteBtn";
 import muckup from "../images/image-mockups.png";
 import { Reveal } from "react-reveal";
+import Zoom from"react-reveal/Zoom"
 
 const IntroSection = () => {
   return (
@@ -9,11 +10,13 @@ const IntroSection = () => {
       className=" intro-section  md:flex md:flex-row-reverse md:justify-between "
       id="home">
       <div className="intro-img md:mt-20 md:-mr-36">
-        <img
+       <Zoom>
+       <img
           style={{ top: "-4.5rem" }}
           className=" absolute md:mt-16 md:-right-0 md:-mr-24"
           src={muckup}
           alt="mobile phone"></img>
+       </Zoom>
       </div>
       <Reveal left>
         <div className=" text-center px-9 md:px-0 md:ml- md:text-left md:ml-36 intro-body">
