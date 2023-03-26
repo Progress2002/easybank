@@ -10,6 +10,9 @@ module.exports = {
       center: true,
       padding: '2rem'
     },
+    fontFamily: {
+      'sans': ['Public', 'Sans', 'Arial']
+    },
     extend: {
       colors: {
         DarkBlue: "hsl(233, 26%, 24%)",
