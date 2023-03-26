@@ -8,7 +8,7 @@ function Blog() {
       className="text-center px-5 md:container text-4xl text-DarkBlue leading-tight mb-5 py-20"
       id="blog">
       <Reveal top>
-        <h2 className="text-center md:text-left mb-10 md:mb-7">
+        <h2 className="text-center md:text-left mb-10 md:mb-7 font-normal">
           Latest Articles
         </h2>
       </Reveal>

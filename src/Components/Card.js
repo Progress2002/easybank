@@ -4,7 +4,7 @@ const Card = (props) => {
   const { imgUrl, author, title, summary, alt } = props;
 
   return (
-    <li className="rounded-lg bg-white">
+    <li className="rounded-lg bg-white hover:-translate-y-0 hover:skew-x-6 hover:scale-90 ">
       <div className="h-48">
         <img src={imgUrl} alt={alt} className="w-full h-full" />
       </div>
