@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import IntroSection from "./Components/IntroSection";
 import About from "./Components/About";
 import Blog from "./Components/Blog";
+import Footer from "./Components/Footer";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <IntroSection />
       <About />
       <Blog />
+      <Footer />
     </div>
   );
 }
