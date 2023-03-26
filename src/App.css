@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 0.3s linear;
+  font-family: 'Public Sans', sans-serif;
 }
 
 body {
   background-color: hsl(0, 0%, 98%);
-  /* overflow-x: hidden; */
 }
 
 
