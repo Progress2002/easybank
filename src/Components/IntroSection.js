@@ -20,7 +20,8 @@ const IntroSection = () => {
       </div>
       <Reveal left>
         <div className=" text-center px-9 md:px-0 md:ml- md:text-left md:ml-36 intro-body">
-          <h1 className="text-4xl font-medium text-DarkBlue leading-tight mb-4  md:text-5xl font-serif ">
+          <h1 className="text-4xl mt-20 
+font-medium text-DarkBlue leading-tight mb-4  md:text-5xl font-serif ">
             Next generation digital banking
           </h1>
           <p className="text-lg text-justify text-gray-400 mb-5 md:text-left">
