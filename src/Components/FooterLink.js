@@ -1,9 +1,9 @@
-import { Reveal } from "react-reveal";
+// import { Reveal } from "react-reveal";
 
 const FooterLink = (props) => {
   const { value, href } = props;
   return (
-    <Reveal>
+    // <Reveal>
       <li>
         <a
           className="block font-bold text-slate-300 hover:text-LimeGreen"
@@ -11,7 +11,7 @@ const FooterLink = (props) => {
           {value}
         </a>
       </li>
-    </Reveal>
+    // </Reveal>
   );
 };
 

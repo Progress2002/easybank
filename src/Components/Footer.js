@@ -2,13 +2,13 @@ import InviteBtn from "./InviteBtn";
 import FooterLink from "./FooterLink";
 import SocialIcons from "./SocialIcons";
 import logo from "../images/logo.svg";
-import { Reveal } from "react-reveal";
+// import { Reveal } from "react-reveal";
 
 
 const Footer = () => {
   return (
     <footer className="bg-DarkBlue text-center py-12">
-      <Reveal up>
+      {/* <Reveal up> */}
       <div className="container flex flex-col md:flex-row md:justify-between gap-6">
         <div className="flex flex-col md:flex-row md:justify-between gap-6 md:gap-36">
           <div className="flex flex-col gap-7 md:justify-between">
@@ -35,7 +35,7 @@ const Footer = () => {
           <p className="text-GrayishBlue">&copy;Easybank. All Rights Reserved </p>
         </div>
       </div>
-      </Reveal>
+      {/* </Reveal> */}
     </footer>
   );
 };

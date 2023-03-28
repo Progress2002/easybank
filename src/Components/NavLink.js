@@ -7,7 +7,7 @@ const Link = (props) => {
     <li
       onClick={click}
       className=" f-full text-center text-GrayishBlue hover:text-DarkBlue  transition-all duration-300 md:text-base text-lg font-medium">
-      <a className="block md:py-7 md:hover:border-b-4 md:hover:border-b-solid border-b-LimeGreen" href={href}>
+      <a className="block md:py-7 md:hover:border-b-4 md:hover:border-b-solid border-b-LimeGreen" href={href} aria>
         {value}
       </a>
     </li>
