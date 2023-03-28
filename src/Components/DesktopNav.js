@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "./NavLink";
-// import { Reveal } from "react-reveal";
+import { Reveal } from "react-reveal";
 
 const DesktopNave = () => {
   return (
     <div className="hidden md:flex justify-between ">
       <nav className="">
-        {/* <Reveal top> */}
+        <Reveal top>
           <ul className="flex  gap-6">
             <Link value="Home" href="#home" />
             <Link value="About" href="#about" />
@@ -14,7 +14,7 @@ const DesktopNave = () => {
             <Link value="Blog" href="#blog" />
             <Link value="Careers" href="#careers" />
           </ul>
-        {/* </Reveal> */}
+        </Reveal>
       </nav>
     </div>
   );
